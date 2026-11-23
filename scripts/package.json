@@ -1,0 +1,20 @@
+{
+  "name": "ngnix-qa-selenium-js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Suite base de pruebas UI para NGNIX con Selenium WebDriver y JavaScript",
+  "scripts": {
+    "smoke": "node scripts/01-smoke-home.js",
+    "login-positive": "node scripts/02-login-positive.js",
+    "login-negative": "node scripts/03-login-negative.js",
+    "login-required": "node scripts/04-login-required-fields.js",
+    "logout": "node scripts/05-logout.js",
+    "route-protection": "node scripts/06-protected-route.js",
+    "navigation": "node scripts/07-navigation.js",
+    "form-validation": "node scripts/08-form-validation-template.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "dotenv": "^16.4.7"
+  }
+}

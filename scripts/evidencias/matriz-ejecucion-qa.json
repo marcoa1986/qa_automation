@@ -1,0 +1,104 @@
+{
+  "proyecto": "Suite QA Selenium - Práctica",
+  "idEjecucion": "2026-11-23T23-23-41-217Z",
+  "fechaEjecucion": "2026-11-23T23:24:01.185Z",
+  "totalCasos": 5,
+  "aprobados": 1,
+  "fallidos": 0,
+  "errores": 4,
+  "alertasTecnicas": 2,
+  "resultados": [
+    {
+      "id": "CP-001",
+      "modulo": "Autenticación",
+      "riesgo": "ALTO",
+      "caso": "Contraseña incorrecta",
+      "estado": "ERROR",
+      "inicio": "2026-11-23T23:23:41.226Z",
+      "fin": "2026-11-23T23:23:45.066Z",
+      "duracionMs": 3840,
+      "mensaje": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36) | Error de captura: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36)",
+      "evidencia": null,
+      "erroresTecnicos": [
+        {
+          "nivel": "SEVERE",
+          "mensaje": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476224544r0.97522169464884&wxhr=true&t=1795476224559&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+          "fecha": "2026-11-23T23:23:44.784Z"
+        }
+      ],
+      "alertaTecnica": true
+    },
+    {
+      "id": "CP-002",
+      "modulo": "Autenticación",
+      "riesgo": "MEDIO",
+      "caso": "Usuario vacío",
+      "estado": "APROBADO",
+      "inicio": "2026-11-23T23:23:45.070Z",
+      "fin": "2026-11-23T23:23:51.802Z",
+      "duracionMs": 6732,
+      "mensaje": "Criterios funcionales cumplidos.",
+      "evidencia": "C:\\Users\\mktqu\\Downloads\\NGNIX_QA_Selenium_JS_Scripts\\NGNIX_QA_Selenium\\scripts\\evidencias\\CP-002_2026-11-23T23-23-51-445Z.png",
+      "erroresTecnicos": [
+        {
+          "nivel": "SEVERE",
+          "mensaje": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476228288r0.4182791231623737&wxhr=true&t=1795476228297&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+          "fecha": "2026-11-23T23:23:48.490Z"
+        },
+        {
+          "nivel": "SEVERE",
+          "mensaje": "https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()",
+          "fecha": "2026-11-23T23:23:48.989Z"
+        },
+        {
+          "nivel": "SEVERE",
+          "mensaje": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795476228288r0.4182791231623737&wxhr=true&t=1795476231014&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+          "fecha": "2026-11-23T23:23:51.146Z"
+        }
+      ],
+      "alertaTecnica": true
+    },
+    {
+      "id": "CP-003",
+      "modulo": "Autenticación",
+      "riesgo": "MEDIO",
+      "caso": "Contraseña vacía",
+      "estado": "ERROR",
+      "inicio": "2026-11-23T23:23:51.806Z",
+      "fin": "2026-11-23T23:23:55.075Z",
+      "duracionMs": 3270,
+      "mensaje": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36) | Error de captura: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36)",
+      "evidencia": null,
+      "erroresTecnicos": [],
+      "alertaTecnica": false
+    },
+    {
+      "id": "CP-004",
+      "modulo": "Gestión de sesión",
+      "riesgo": "ALTO",
+      "caso": "Cerrar sesión",
+      "estado": "ERROR",
+      "inicio": "2026-11-23T23:23:55.076Z",
+      "fin": "2026-11-23T23:23:58.136Z",
+      "duracionMs": 3060,
+      "mensaje": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36) | Error de captura: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36)",
+      "evidencia": null,
+      "erroresTecnicos": [],
+      "alertaTecnica": false
+    },
+    {
+      "id": "CP-005",
+      "modulo": "Monitoreo técnico",
+      "riesgo": "MEDIO",
+      "caso": "Detección de errores técnicos",
+      "estado": "ERROR",
+      "inicio": "2026-11-23T23:23:58.137Z",
+      "fin": "2026-11-23T23:24:01.184Z",
+      "duracionMs": 3047,
+      "mensaje": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36) | Error de captura: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=158.0.8127.36)",
+      "evidencia": null,
+      "erroresTecnicos": [],
+      "alertaTecnica": false
+    }
+  ]
+}

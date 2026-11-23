@@ -1,0 +1,157 @@
+[2026-11-23T23:19:39.579Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] ==========================================
+[2026-11-23T23:19:39.585Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] INICIO DE SUITE AUTOMATIZADA QA
+[2026-11-23T23:19:39.586Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] URL de pruebas: https://the-internet.herokuapp.com/login
+[2026-11-23T23:19:39.587Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] ==========================================
+[2026-11-23T23:19:39.588Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] Preparando casos de prueba
+[2026-11-23T23:19:39.589Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] Total de casos programados: 5
+[2026-11-23T23:19:39.614Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] INICIO DEL CASO: Contraseña incorrecta
+[2026-11-23T23:19:39.615Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Iniciando navegador Chrome
+[2026-11-23T23:19:45.031Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Chrome iniciado correctamente
+[2026-11-23T23:19:48.187Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Página de login cargada
+[2026-11-23T23:19:48.218Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Campo username localizado
+[2026-11-23T23:19:48.221Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Ingresando usuario válido
+[2026-11-23T23:19:48.339Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Ingresando contraseña incorrecta
+[2026-11-23T23:19:48.413Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Presionando botón Login
+[2026-11-23T23:19:48.924Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Mensaje recibido: Your password is invalid! | ×
+[2026-11-23T23:19:48.926Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Validación funcional completada
+[2026-11-23T23:19:48.931Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Se detectaron 2 mensajes SEVERE en consola
+[2026-11-23T23:19:48.933Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795475985940r0.4109436974746201&wxhr=true&t=1795475985950&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:19:48.934Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Chrome SEVERE: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[2026-11-23T23:19:49.060Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Captura guardada: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\CP-001_2026-11-23T23-19-48-935Z.png
+[2026-11-23T23:19:49.217Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] Navegador cerrado correctamente
+[2026-11-23T23:19:49.219Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-001] FIN DEL CASO | Resultado: APROBADO | Duración: 9605 ms
+[2026-11-23T23:19:49.222Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] INICIO DEL CASO: Usuario vacío
+[2026-11-23T23:19:49.223Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Iniciando navegador Chrome
+[2026-11-23T23:19:50.544Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Chrome iniciado correctamente
+[2026-11-23T23:19:55.221Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Página de login cargada
+[2026-11-23T23:19:55.256Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Campo username localizado
+[2026-11-23T23:19:55.259Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Dejando usuario vacío
+[2026-11-23T23:19:55.416Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Presionando botón Login
+[2026-11-23T23:19:55.874Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Mensaje recibido: Your username is invalid! | ×
+[2026-11-23T23:19:55.875Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Validación funcional completada
+[2026-11-23T23:19:55.879Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Se detectaron 3 mensajes SEVERE en consola
+[2026-11-23T23:19:55.881Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795475993003r0.0012730049959495116&wxhr=true&t=1795475993008&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:19:55.882Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Chrome SEVERE: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[2026-11-23T23:19:55.883Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795475993003r0.0012730049959495116&wxhr=true&t=1795475995513&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:19:56.025Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Captura guardada: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\CP-002_2026-11-23T23-19-55-884Z.png
+[2026-11-23T23:19:56.328Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] Navegador cerrado correctamente
+[2026-11-23T23:19:56.331Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-002] FIN DEL CASO | Resultado: APROBADO | Duración: 7109 ms
+[2026-11-23T23:19:56.335Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] INICIO DEL CASO: Contraseña vacía
+[2026-11-23T23:19:56.336Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Iniciando navegador Chrome
+[2026-11-23T23:19:57.942Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome iniciado correctamente
+[2026-11-23T23:20:01.217Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Página de login cargada
+[2026-11-23T23:20:01.248Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Campo username localizado
+[2026-11-23T23:20:01.252Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Ingresando usuario válido
+[2026-11-23T23:20:01.473Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Dejando contraseña vacía
+[2026-11-23T23:20:02.074Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Mensaje recibido: Your password is invalid! | ×
+[2026-11-23T23:20:02.076Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Validación funcional completada
+[2026-11-23T23:20:02.080Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Se detectaron 6 mensajes SEVERE en consola
+[2026-11-23T23:20:02.081Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795475999287r0.2129767678880936&wxhr=true&t=1795475999293&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:02.083Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome SEVERE: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[2026-11-23T23:20:02.084Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795475999287r0.2129767678880936&wxhr=true&t=1795476001624&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:02.085Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795475999287r0.2129767678880936&wxhr=true&t=1795476001624&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:02.086Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795475999287r0.2129767678880936&wxhr=true&t=1795476001976&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:02.088Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795475999287r0.2129767678880936&wxhr=true&t=1795475999293&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:02.210Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Captura guardada: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\CP-003_2026-11-23T23-20-02-090Z.png
+[2026-11-23T23:20:02.444Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] Navegador cerrado correctamente
+[2026-11-23T23:20:02.445Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-003] FIN DEL CASO | Resultado: APROBADO | Duración: 6111 ms
+[2026-11-23T23:20:02.446Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] INICIO DEL CASO: Cerrar sesión
+[2026-11-23T23:20:02.447Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Iniciando navegador Chrome
+[2026-11-23T23:20:03.651Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome iniciado correctamente
+[2026-11-23T23:20:05.962Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Página de login cargada
+[2026-11-23T23:20:05.996Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Campo username localizado
+[2026-11-23T23:20:05.999Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Ingresando credenciales válidas
+[2026-11-23T23:20:06.252Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Presionando botón Login
+[2026-11-23T23:20:06.760Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Login exitoso, entrando a Secure Area
+[2026-11-23T23:20:07.247Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Se presionó Logout
+[2026-11-23T23:20:07.313Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Mensaje de logout: You logged out of the secure area! | ×
+[2026-11-23T23:20:07.315Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Validación funcional completada
+[2026-11-23T23:20:07.320Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Se detectaron 7 mensajes SEVERE en consola
+[2026-11-23T23:20:07.321Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476005170r0.8682549373758255&wxhr=true&t=1795476005176&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:07.322Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[2026-11-23T23:20:07.323Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795476005170r0.8682549373758255&wxhr=true&t=1795476006387&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:07.325Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795476005170r0.8682549373758255&wxhr=true&t=1795476006387&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:07.326Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476005170r0.8682549373758255&wxhr=true&t=1795476005176&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:07.328Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fsecure&u=oeu1795476005170r0.8682549373758255&wxhr=true&t=1795476006702&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:07.329Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795476005170r0.8682549373758255&wxhr=true&t=1795476006907&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:07.499Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Captura guardada: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\CP-004_2026-11-23T23-20-07-330Z.png
+[2026-11-23T23:20:07.885Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] Navegador cerrado correctamente
+[2026-11-23T23:20:07.887Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-004] FIN DEL CASO | Resultado: APROBADO | Duración: 5441 ms
+[2026-11-23T23:20:07.890Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] INICIO DEL CASO: Detección de errores técnicos
+[2026-11-23T23:20:07.891Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Iniciando navegador Chrome
+[2026-11-23T23:20:09.039Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Chrome iniciado correctamente
+[2026-11-23T23:20:11.295Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Página de login cargada
+[2026-11-23T23:20:11.331Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Campo username localizado
+[2026-11-23T23:20:11.334Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Iniciando login para monitoreo técnico
+[2026-11-23T23:20:12.145Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Login realizado para monitoreo técnico
+[2026-11-23T23:20:12.146Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Validación funcional completada
+[2026-11-23T23:20:12.154Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Se detectaron 3 mensajes SEVERE en consola
+[2026-11-23T23:20:12.155Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476010901r0.25417961731218697&wxhr=true&t=1795476010909&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:12.157Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Chrome SEVERE: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[2026-11-23T23:20:12.158Z] [WARN] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795476010901r0.25417961731218697&wxhr=true&t=1795476011803&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:20:12.262Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Captura guardada: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\CP-005_2026-11-23T23-20-12-160Z.png
+[2026-11-23T23:20:12.481Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] Navegador cerrado correctamente
+[2026-11-23T23:20:12.484Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [CP-005] FIN DEL CASO | Resultado: APROBADO | Duración: 4594 ms
+[2026-11-23T23:20:12.487Z] [INFO] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] Reporte JSON generado: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\matriz-ejecucion-qa.json
+[2026-11-23T23:20:12.489Z] [ERROR] [RUN:2026-11-23T23-19-39-577Z] [GENERAL] ERROR GENERAL DE SUITE: Error: EBUSY: resource busy or locked, open 'C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\matriz-ejecucion-qa.csv' |     at Object.writeFileSync (node:fs:3028:20) |     at ejecutarSuite (C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\suite-login.js:700:8) |     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-11-23T23:23:41.218Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] ==========================================
+[2026-11-23T23:23:41.222Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] INICIO DE SUITE AUTOMATIZADA QA
+[2026-11-23T23:23:41.223Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] URL de pruebas: https://the-internet.herokuapp.com/login
+[2026-11-23T23:23:41.224Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] ==========================================
+[2026-11-23T23:23:41.225Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] Preparando casos de prueba
+[2026-11-23T23:23:41.225Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] Total de casos programados: 5
+[2026-11-23T23:23:41.226Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-001] INICIO DEL CASO: Contraseña incorrecta
+[2026-11-23T23:23:41.227Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Iniciando navegador Chrome
+[2026-11-23T23:23:42.089Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Chrome iniciado correctamente
+[2026-11-23T23:23:44.878Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Página de login cargada
+[2026-11-23T23:23:44.893Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-001] ERROR: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:23:44.906Z] [WARN] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Se detectaron 1 mensajes SEVERE en consola
+[2026-11-23T23:23:44.909Z] [WARN] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476224544r0.97522169464884&wxhr=true&t=1795476224559&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:23:44.920Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Error al generar captura: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:23:45.064Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-001] Navegador cerrado correctamente
+[2026-11-23T23:23:45.066Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-001] FIN DEL CASO | Resultado: ERROR | Duración: 3840 ms
+[2026-11-23T23:23:45.070Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] INICIO DEL CASO: Usuario vacío
+[2026-11-23T23:23:45.073Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Iniciando navegador Chrome
+[2026-11-23T23:23:46.292Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Chrome iniciado correctamente
+[2026-11-23T23:23:48.892Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Página de login cargada
+[2026-11-23T23:23:48.966Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Campo username localizado
+[2026-11-23T23:23:48.968Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Dejando usuario vacío
+[2026-11-23T23:23:49.325Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Presionando botón Login
+[2026-11-23T23:23:51.430Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Mensaje recibido: Your username is invalid! | ×
+[2026-11-23T23:23:51.431Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Validación funcional completada
+[2026-11-23T23:23:51.437Z] [WARN] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Se detectaron 3 mensajes SEVERE en consola
+[2026-11-23T23:23:51.439Z] [WARN] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1795476228288r0.4182791231623737&wxhr=true&t=1795476228297&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:23:51.441Z] [WARN] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Chrome SEVERE: https://the-internet.herokuapp.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
+[2026-11-23T23:23:51.443Z] [WARN] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Chrome SEVERE: https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1795476228288r0.4182791231623737&wxhr=true&t=1795476231014&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2026-11-23T23:23:51.587Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Captura guardada: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\CP-002_2026-11-23T23-23-51-445Z.png
+[2026-11-23T23:23:51.801Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] Navegador cerrado correctamente
+[2026-11-23T23:23:51.802Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-002] FIN DEL CASO | Resultado: APROBADO | Duración: 6732 ms
+[2026-11-23T23:23:51.806Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-003] INICIO DEL CASO: Contraseña vacía
+[2026-11-23T23:23:51.808Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-003] Iniciando navegador Chrome
+[2026-11-23T23:23:53.102Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-003] Chrome iniciado correctamente
+[2026-11-23T23:23:54.910Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-003] Página de login cargada
+[2026-11-23T23:23:54.917Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-003] ERROR: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:23:54.925Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-003] No se detectaron mensajes SEVERE en consola
+[2026-11-23T23:23:54.929Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-003] Error al generar captura: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:23:55.074Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-003] Navegador cerrado correctamente
+[2026-11-23T23:23:55.075Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-003] FIN DEL CASO | Resultado: ERROR | Duración: 3270 ms
+[2026-11-23T23:23:55.076Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-004] INICIO DEL CASO: Cerrar sesión
+[2026-11-23T23:23:55.078Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-004] Iniciando navegador Chrome
+[2026-11-23T23:23:56.414Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-004] Chrome iniciado correctamente
+[2026-11-23T23:23:57.715Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-004] Página de login cargada
+[2026-11-23T23:23:57.722Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-004] ERROR: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:23:57.726Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-004] No se detectaron mensajes SEVERE en consola
+[2026-11-23T23:23:57.734Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-004] Error al generar captura: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:23:58.135Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-004] Navegador cerrado correctamente
+[2026-11-23T23:23:58.136Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-004] FIN DEL CASO | Resultado: ERROR | Duración: 3060 ms
+[2026-11-23T23:23:58.137Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-005] INICIO DEL CASO: Detección de errores técnicos
+[2026-11-23T23:23:58.138Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-005] Iniciando navegador Chrome
+[2026-11-23T23:23:59.335Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-005] Chrome iniciado correctamente
+[2026-11-23T23:24:00.728Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-005] Página de login cargada
+[2026-11-23T23:24:00.737Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-005] ERROR: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:24:00.741Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-005] No se detectaron mensajes SEVERE en consola
+[2026-11-23T23:24:00.747Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-005] Error al generar captura: no such window: target window already closed | from unknown error: web view not found |   (Session info: chrome=158.0.8127.36)
+[2026-11-23T23:24:01.183Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [CP-005] Navegador cerrado correctamente
+[2026-11-23T23:24:01.184Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [CP-005] FIN DEL CASO | Resultado: ERROR | Duración: 3047 ms
+[2026-11-23T23:24:01.187Z] [INFO] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] Reporte JSON generado: C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\matriz-ejecucion-qa.json
+[2026-11-23T23:24:01.191Z] [ERROR] [RUN:2026-11-23T23-23-41-217Z] [GENERAL] ERROR GENERAL DE SUITE: Error: EBUSY: resource busy or locked, open 'C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\evidencias\matriz-ejecucion-qa.csv' |     at Object.writeFileSync (node:fs:3028:20) |     at ejecutarSuite (C:\Users\mktqu\Downloads\NGNIX_QA_Selenium_JS_Scripts\NGNIX_QA_Selenium\scripts\suite-login.js:700:8) |     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
