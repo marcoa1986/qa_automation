@@ -1,9 +1,16 @@
+const fs = require('fs');
+const path = require('path');
 
 const { Builder, By, until } = require('selenium-webdriver');
 const fs = require('fs');
 
 async function loginTest() {
     let driver;
+    const carpetaEvidencias = path.join(__dirname, 'evidencias');
+
+if (!fs.existsSync(carpetaEvidencias)) {
+    fs.mkdirSync(carpetaEvidencias, { recursive: true });
+}
 
     try {
         console.log('INICIO - LOGIN POSITIVO');
@@ -73,7 +80,34 @@ async function loginTest() {
         console.log('Evidencia guardada: evidencia-login-exitoso.png');
 
     } catch (error) {
-        console.error('PRUEBA FALLIDA:', error.message);
+        } catch (error) {
+
+    console.error('PRUEBA FALLIDA:', error.message);
+
+    if (driver) {
+        try {
+            const fecha = new Date()
+                .toISOString()
+                .replace(/[:.]/g, '-');
+
+            const captura = await driver.takeScreenshot();
+
+            const archivo = path.join(
+                carpetaEvidencias,
+                `LOGIN_FALLIDO_${fecha}.png`
+            );
+
+            fs.writeFileSync(archivo, captura, 'base64');
+
+            console.log('EVIDENCIA DEL FALLO GUARDADA:', archivo);
+
+        } catch (errorCaptura) {
+            console.error(
+                'No se pudo generar la captura:',
+                errorCaptura.message
+            );
+        }
+    }
 
     } finally {
         if (driver) {
